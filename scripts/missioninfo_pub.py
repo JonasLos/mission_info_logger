@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import rospy
-from missioninfologger.msg import MissionInfo  # Import your custom message
+from mission_info_logger.msg import MissionInfo  # Import your custom message
 
 def main():
     rospy.init_node('parameter_logger_node')

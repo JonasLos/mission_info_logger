@@ -1,0 +1,9 @@
+<launch>
+  <node pkg="my_package" type="parameter_logger_node.py" name="parameter_logger_node" output="screen">
+    <param name="location" value="Test Range Alpha" />
+    <param name="vehicle" value="Quadcopter" />
+    <param name="comments" value="Testing altitude control" />
+    <param name="maneuver" value="Vertical Climb" />
+  </node>
+</launch>
+
